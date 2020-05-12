@@ -2,3 +2,21 @@ h2 {
     color: black;
     background-color: blue;
 }
+#top10{
+    display: inline-block;
+    color:red;
+    border: 2px red solid;
+    margin-top:400px;
+    padding: 5px;
+}
+h4{
+    color: black;
+}
+#experience {
+    display: inline-block;
+    border: 2px black solid;
+    color: royalblue;
+    /* margin-top: 10px; */
+    margin-left:10px;
+    padding: 5px;
+}
