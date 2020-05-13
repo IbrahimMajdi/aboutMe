@@ -1,6 +1,8 @@
 'use strict';
 
 var score = 0;
+function Q1(){
+
 
 var uname = prompt('Hello there! ,what is your name?');
 
@@ -17,6 +19,11 @@ if (q1.toLowerCase() === 'y') {
     score += 1;
     alert('correct');
 }
+}
+Q1();
+//-----
+
+function Q2(){
 
 var q2 = prompt('do you think I like coding?');
 
@@ -29,6 +36,12 @@ if (q2.toLowerCase() === 'y') {
     alert('wrong');
 }
 
+}
+Q2();
+//----
+
+function Q3() {
+    
 var q3 = prompt('do you think I like sports');
 
 if (q3.toLowerCase() === 'y') {
@@ -39,7 +52,12 @@ if (q3.toLowerCase() === 'y') {
     //console.log('wrong');
     alert('wrong');
 }
+}
+Q3();
+//----
 
+function Q4() {
+    
 var q4 = prompt('do you think I can speak english');
 
 if (q4.toLowerCase() === 'y') {
@@ -50,7 +68,12 @@ if (q4.toLowerCase() === 'y') {
     //console.log('wrong');
     alert('wrong');
 }
+}
+Q4();
+//-----
 
+function Q5() {
+    
 var q5 = ('do you think I know how to cook?');
 
 if (q5.toLowerCase() === 'n') {
@@ -61,7 +84,11 @@ if (q5.toLowerCase() === 'n') {
     //console.log('wrong');
     alert('wrong');
 }
-
+}
+Q5();
+//------
+function Q6() {
+    
 var attempts = 0;
 
 while (attempts != 4) {
@@ -82,13 +109,19 @@ while (attempts != 4) {
         break;
 
     }
+}
 
     attempts++;
 
 }
-
-
 alert('Actually, the number of countries I vesited is 0. thank you :)');
+
+Q6();
+//----
+
+function Q7() {
+
+    
 
 
 var sports = ['cycling', 'running', 'swimming'];
@@ -109,3 +142,5 @@ for (var i = 0; i <= 5; i++) {
 alert('I like cycling,running and swimming');
 
 alert('Thank you ' + uname + ' !. I hope the quiz was fun your score is ' + score);
+}
+Q7();
