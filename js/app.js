@@ -109,9 +109,9 @@ while (attempts != 4) {
         break;
 
     }
-}
 
     attempts++;
+}
 
 }
 Q6();
