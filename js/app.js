@@ -114,15 +114,14 @@ while (attempts != 4) {
     attempts++;
 
 }
+Q6();
+
 alert('Actually, the number of countries I vesited is 0. thank you :)');
 
-Q6();
+
 //----
 
 function Q7() {
-
-    
-
 
 var sports = ['cycling', 'running', 'swimming'];
 
